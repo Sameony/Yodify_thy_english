@@ -1,3 +1,4 @@
+//input
 var btn = document.querySelector("#btn-check");
 var txt_input = document.querySelector("#txt-input");
 var txt_output = document.querySelector("#txt-output");
@@ -6,6 +7,7 @@ var serverURL ="https://api.funtranslations.com/translate/yoda.json";
 
 
 /* fetching n stuffs*/ 
+//processing
 function makeUrl(text1)
 {
     return (serverURL+"?" + "text=" + text1);
@@ -27,7 +29,7 @@ function fetchit(url)
 function clickEventHandler()
 {
     console.log("You clicked it!!!!");
-    fetchit(makeUrl(txt_input.value));
+    fetchit(makeUrl(txt_input.value)); //output
     
 }
 
