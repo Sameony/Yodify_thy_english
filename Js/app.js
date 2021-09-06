@@ -32,5 +32,5 @@ function clickEventHandler()
     
 }
 
-btn = addEventListener("click",clickEventHandler);
+btn = btn.addEventListener("click",clickEventHandler);
 
