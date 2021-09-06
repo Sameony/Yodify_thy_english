@@ -1,3 +1,7 @@
+:root{
+    --primary-color: #10B981;
+
+}
 #txt-input{
     margin:1rem;
     padding:2rem;
@@ -6,7 +10,21 @@
 }
 
 #btn-check{
-    padding: 0.5rem 2rem;
+   background: #10B981;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Garamond;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 1rem 1.5rem;
+   box-shadow: 1px 1px 20px 0 #10B981;
+   text-shadow: 1px 1px 20px #10B981;
+   border: solid #10B981 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
 }
 #txt-output{
     margin:1rem;
