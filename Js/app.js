@@ -28,7 +28,6 @@ function fetchit(url)
 
 function clickEventHandler()
 {
-    console.log("You clicked it!!!!");
     fetchit(makeUrl(txt_input.value)); //output
     
 }

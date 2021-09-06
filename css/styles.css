@@ -1,13 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Inconsolata:wght@600&display=swap');
+
+
 :root{
     --primary-color: #10B981;
 
 }
+
+body{
+    font-family: 'Inconsolata', monospace;
+    margin: 0px;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+}
 #txt-input{
-    margin:1rem;
+    margin:auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     padding:2rem;
     display: block;
     width: 70%;
+    height: 4rem;
+    font-size: larger;
 }
+
+
+#txt-output{
+    padding:2rem;
+    display: block;
+    height: 4rem;
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 
 #btn-check{
    background: #10B981;
@@ -21,16 +49,89 @@
    text-shadow: 1px 1px 20px #10B981;
    border: solid #10B981 1px;
    text-decoration: none;
-   display: inline-block;
+   display: block;
    cursor: pointer;
    text-align: center;
+   margin: auto;
 
 }
-#txt-output{
-    margin:1rem;
-    padding:2rem;
-    display: block;
-    height: 2rem;
-    width: 70%;
-    border: 1px solid black;
+
+.header{
+    text-align: center;
+    font-size: xx-large;
+}
+.container{
+    padding:0 1rem 0 1rem;
+}
+
+/**     Navigation      **/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 4rem;
+    
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+.navigation .link-active{
+    color:white;
+    font-weight: 500;
+}
+
+.nav-pills{
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+.navigation .link-active{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+/* Lists*/
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+
+
+/*Links*/
+
+.link{
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 0.5rem 0 1rem;
+    color:white;
+}
+
+
+/*Footer*/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-radius:0 4rem 0 0;
+    
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    color:white;
+}
+
+.footer-header{
+    font-size: larger;
+    font-weight: bold;
 }
