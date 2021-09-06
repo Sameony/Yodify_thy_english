@@ -20,7 +20,7 @@ p{
     padding:2rem;
     display: block;
     width: 70%;
-    height: 4rem;
+    height: 4.5rem;
     font-size: larger;
 }
 
@@ -28,7 +28,7 @@ p{
 #txt-output{
     padding:2rem;
     display: block;
-    height: 4rem;
+    height: 5rem;
     width: 70%;
     border: 1px solid black;
     margin: auto;
@@ -56,43 +56,26 @@ p{
 
 }
 
-.header{
-    text-align: center;
-    font-size: xx-large;
-}
+
 .container{
     padding:0 1rem 0 1rem;
 }
 
-/**     Navigation      **/
-.navigation{
+/*Heading*/
+.prim{
     background-color: var(--primary-color);
+    padding: 2rem;
+    font-weight: bold;
+    font-size: large;
     color:white;
-    padding: 1rem;
+    padding: 2rem;
     border-bottom-left-radius: 4rem;
-    
 }
-.nav-brand{
-    font-weight: bold;
+.header{
+    text-align: center;
     font-size: xx-large;
-    text-align: center;
-}
-.navigation .link-active{
-    color:white;
-    font-weight: 500;
-}
-
-.nav-pills{
-    text-align: center;
-    margin-top: 2rem;
     
 }
-
-.navigation .link-active{
-    font-weight: bold;
-    font-size: x-large;
-}
-
 
 /* Lists*/
 
