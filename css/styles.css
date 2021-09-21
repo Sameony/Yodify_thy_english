@@ -12,6 +12,7 @@ body{
 }
 p{
     font-family: 'Comfortaa', cursive;
+    font-size: small;
 }
 #txt-input{
     margin:auto;
@@ -21,7 +22,7 @@ p{
     display: block;
     width: 70%;
     height: 4.5rem;
-    font-size: larger;
+    font-size: x-large;
 }
 
 
@@ -34,6 +35,7 @@ p{
     margin: auto;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    font-size: x-large;
 }
 
 
@@ -108,8 +110,12 @@ p{
     border-radius:4rem   4rem 0 0;
     font-size: large;
 }
-
 .footer-header{
+    font-size: xx-large;
+    font-weight: bolder;
+} 
+.bot-header{
+    text-align: center;
     font-size: x-large;
     font-weight: bold;
 }
